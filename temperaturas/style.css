@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    background-color: #046DB5;
+}
+
+h1, p {
+    text-align: center;
+    font-size: 2em;
+}
+
+table {
+    margin: auto;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: #0C16A8;
+    color: #00FFFB;
+}
