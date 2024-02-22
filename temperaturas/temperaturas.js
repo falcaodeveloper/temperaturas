@@ -15,7 +15,7 @@ const temperatura = {
         let k = c * 1 + 273.15;
         document.getElementById("id1").innerHTML = k + "°K";
     },
-//Kelvin para Celsius C = K - 273
+//Kelvin para Celsius C = K - 273.15
     kelvin_para_celsius: function(k = window.prompt("Temperatura em Kelvin")) {
         let c = k - 273;
         document.getElementById("id1").innerHTML = c + "°C";
